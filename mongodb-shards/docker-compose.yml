@@ -1,0 +1,119 @@
+version: '3.8'
+
+services:
+  # --- Config Servers Replica Set ---
+  configsvr1:
+    image: mongo:latest
+    container_name: configsvr1
+    hostname: configsvr1
+    ports:
+      - "27017:27017"
+    volumes:
+      - configsvr1_data:/data/db
+    command: mongod --configsvr --replSet rs-config --bind_ip_all --port 27017
+
+  configsvr2:
+    image: mongo:latest
+    container_name: configsvr2
+    hostname: configsvr2
+    ports:
+      - "27018:27017"
+    volumes:
+      - configsvr2_data:/data/db
+    command: mongod --configsvr --replSet rs-config --bind_ip_all --port 27017
+
+  configsvr3:
+    image: mongo:latest
+    container_name: configsvr3
+    hostname: configsvr3
+    ports:
+      - "27019:27017"
+    volumes:
+      - configsvr3_data:/data/db
+    command: mongod --configsvr --replSet rs-config --bind_ip_all --port 27017
+
+  # --- Mongos Router ---
+  mongos1:
+    image: mongo:latest
+    container_name: mongos1
+    hostname: mongos1
+    ports:
+      - "27020:27017"
+    depends_on:
+      - configsvr1
+      - configsvr2
+      - configsvr3
+    command: mongos --configdb rs-config/configsvr1:27017,configsvr2:27017,configsvr3:27017 --bind_ip_all --port 27017
+
+  # --- Shard 1 Replica Set ---
+  shard1a:
+    image: mongo:latest
+    container_name: shard1a
+    hostname: shard1a
+    ports:
+      - "27021:27017"
+    volumes:
+      - shard1a_data:/data/db
+    command: mongod --shardsvr --replSet rs-shard1 --bind_ip_all --port 27017
+
+  shard1b:
+    image: mongo:latest
+    container_name: shard1b
+    hostname: shard1b
+    ports:
+      - "27022:27017"
+    volumes:
+      - shard1b_data:/data/db
+    command: mongod --shardsvr --replSet rs-shard1 --bind_ip_all --port 27017
+
+  shard1c:
+    image: mongo:latest
+    container_name: shard1c
+    hostname: shard1c
+    ports:
+      - "27023:27017"
+    volumes:
+      - shard1c_data:/data/db
+    command: mongod --shardsvr --replSet rs-shard1 --bind_ip_all --port 27017
+
+  # --- Shard 2 Replica Set ---
+  shard2a:
+    image: mongo:latest
+    container_name: shard2a
+    hostname: shard2a
+    ports:
+      - "27024:27017"
+    volumes:
+      - shard2a_data:/data/db
+    command: mongod --shardsvr --replSet rs-shard2 --bind_ip_all --port 27017
+
+  shard2b:
+    image: mongo:latest
+    container_name: shard2b
+    hostname: shard2b
+    ports:
+      - "27025:27017"
+    volumes:
+      - shard2b_data:/data/db
+    command: mongod --shardsvr --replSet rs-shard2 --bind_ip_all --port 27017
+
+  shard2c:
+    image: mongo:latest
+    container_name: shard2c
+    hostname: shard2c
+    ports:
+      - "27026:27017"
+    volumes:
+      - shard2c_data:/data/db
+    command: mongod --shardsvr --replSet rs-shard2 --bind_ip_all --port 27017
+
+volumes:
+  configsvr1_data:
+  configsvr2_data:
+  configsvr3_data:
+  shard1a_data:
+  shard1b_data:
+  shard1c_data:
+  shard2a_data:
+  shard2b_data:
+  shard2c_data:

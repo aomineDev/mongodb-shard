@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  # Nodo Primario
+  mongo1:
+    image: mongo:latest
+    container_name: mongo1
+    hostname: mongo1
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo1_data:/data/db
+    command: mongod --replSet myReplicaSet --bind_ip_all --port 27017
+
+  # Nodo Secundario 1
+  mongo2:
+    image: mongo:latest
+    container_name: mongo2
+    hostname: mongo2
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo2_data:/data/db
+    command: mongod --replSet myReplicaSet --bind_ip_all --port 27017
+
+  # Nodo Secundario 2
+  mongo3:
+    image: mongo:latest
+    container_name: mongo3
+    hostname: mongo3
+    ports:
+      - "27019:27017"
+    volumes:
+      - mongo3_data:/data/db
+    command: mongod --replSet myReplicaSet --bind_ip_all --port 27017
+
+volumes:
+  mongo1_data:
+  mongo2_data:
+  mongo3_data:
