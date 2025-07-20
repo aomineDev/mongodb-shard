@@ -1,0 +1,637 @@
+[{
+  "_id": {
+    "$oid": "685a471f7af743ff4f4b4f10"
+  },
+  "nombre": "Jugo de Maracuyá",
+  "precio_unitario": 12,
+  "descripcion": "Refrescante jugo natural de maracuyá.",
+  "disponible": 1,
+  "imagen": "/img/maracuya.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "685ddd381527a892b06d8755"
+  },
+  "nombre": "Pollo ala brasa",
+  "precio_unitario": 60,
+  "descripcion": "Delicioso pollo ala brasa con papas nativas.",
+  "disponible": 1,
+  "imagen": "/img/polloalabrasa.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "685dde471527a892b06d8759"
+  },
+  "nombre": "Ceviche",
+  "precio_unitario": 30,
+  "descripcion": "Ceviche picante con chicharron de pota.",
+  "disponible": 1,
+  "imagen": "/img/ceviche.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "685ddeae1527a892b06d875b"
+  },
+  "nombre": "Rocoto relleno",
+  "precio_unitario": 20,
+  "descripcion": "El rocoto relleno es un rocoto picante relleno de carne, queso y especias, horneado y gratinado, plato típico de Arequipa.",
+  "disponible": 1,
+  "imagen": "/img/rocotorelleno.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "685ddf3c1527a892b06d875e"
+  },
+  "nombre": "Pie de limon",
+  "precio_unitario": 15,
+  "descripcion": "El pie de limón es un postre con base de galleta o masa, relleno de crema de limón y cubierto con merengue.",
+  "disponible": 1,
+  "imagen": "/img/piedelimon.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "685ddff01527a892b06d8760"
+  },
+  "nombre": "Empanada",
+  "precio_unitario": 10,
+  "descripcion": "Empanada de carne.",
+  "disponible": 3,
+  "imagen": "/img/empanada.jpg",
+  "categoria_id": {
+    "$oid": "685a43077af743ff4f4b4eee"
+  }
+},
+{
+  "_id": {
+    "$oid": "685de0601527a892b06d8762"
+  },
+  "nombre": "Mazamorra morada",
+  "precio_unitario": 7,
+  "descripcion": "Mazamorra Morada, un cremoso postre a base de maíz morado y frutas secas, con un toque de clavo y canela.",
+  "disponible": 1,
+  "imagen": "/img/mazamorramorada.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "685de0f01527a892b06d8766"
+  },
+  "nombre": "Tamales",
+  "precio_unitario": 12,
+  "descripcion": "Nuestros Tamales, elaborados con una suave masa de maíz, rellenos de pollo.",
+  "disponible": 1,
+  "imagen": "/img/tamales.jpg",
+  "categoria_id": {
+    "$oid": "685a43077af743ff4f4b4eee"
+  }
+},
+{
+  "_id": {
+    "$oid": "685de13d1527a892b06d8768"
+  },
+  "nombre": "Aji de gallina",
+  "precio_unitario": 20,
+  "descripcion": "Nuestro Ají de Gallina, un cremoso guiso de gallina deshilachada en salsa de ají amarillo, leche y nueces, servido con papa, huevo y arroz.",
+  "disponible": 1,
+  "imagen": "/img/ajidegallina.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "685de18c1527a892b06d876a"
+  },
+  "nombre": "Papa rellena",
+  "precio_unitario": 13,
+  "descripcion": "Nuestra Papa Rellena, crujiente puré de papa dorado, con sabroso relleno de carne, huevo y aceitunas, frita a la perfección.",
+  "disponible": 1,
+  "imagen": "/img/paparellena.jpg",
+  "categoria_id": {
+    "$oid": "685a43077af743ff4f4b4eee"
+  }
+},
+{
+  "_id": {
+    "$oid": "685de1d41527a892b06d876c"
+  },
+  "nombre": "Chaufa",
+  "precio_unitario": 15,
+  "descripcion": "Nuestro Arroz Chaufa, un clásico arroz salteado al wok con trozos de pollo, tortilla de huevo, cebolla china y salsa de soya.",
+  "disponible": 1,
+  "imagen": "/img/chaufa.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "685de2261527a892b06d876e"
+  },
+  "nombre": "Pisco sour",
+  "precio_unitario": 11,
+  "descripcion": "Nuestro Pisco Sour, cóctel nacional de Perú con pisco, limón, jarabe, clara y amargo de Angostura.",
+  "disponible": 1,
+  "imagen": "/img/piscosour.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864bef27d553062d9afe3dd"
+  },
+  "nombre": "Anticuchos",
+  "precio_unitario": 20,
+  "descripcion": "Brochetas de corazón de res con papas.",
+  "disponible": 1,
+  "imagen": "/img/anticuchos.jpg",
+  "categoria_id": {
+    "$oid": "685a43077af743ff4f4b4eee"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864bf407d553062d9afe3e7"
+  },
+  "nombre": "Ensalada Fresca",
+  "precio_unitario": 12.5,
+  "descripcion": "Mezcla de verduras frescas con aderezo de la casa.",
+  "disponible": 1,
+  "imagen": "/img/ensalada.jpg",
+  "categoria_id": {
+    "$oid": "685a43077af743ff4f4b4eee"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864bffc7d553062d9afe3ed"
+  },
+  "nombre": "Tallarines Verdes con Bistec",
+  "precio_unitario": 30,
+  "descripcion": "Tallarines con salsa de albahaca y bistec.",
+  "disponible": 1,
+  "imagen": "/img/tallarines_verdes.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c0117d553062d9afe3ef"
+  },
+  "nombre": "Chicharrón de Cerdo",
+  "precio_unitario": 36,
+  "descripcion": "Chicharrón crocante con camote y sarza criolla.",
+  "disponible": 1,
+  "imagen": "/img/chicharron.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c0207d553062d9afe3f1"
+  },
+  "nombre": "Pescado Frito con Yuca",
+  "precio_unitario": 33,
+  "descripcion": "Filete de pescado crujiente con yuca frita.",
+  "disponible": 1,
+  "imagen": "/img/pescado.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c03b7d553062d9afe3f3"
+  },
+  "nombre": "Chicha Morada",
+  "precio_unitario": 6,
+  "descripcion": "Bebida tradicional hecha con maíz morado.",
+  "disponible": 1,
+  "imagen": "/img/chicha.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c0487d553062d9afe3f5"
+  },
+  "nombre": "Maracuyá Frozen",
+  "precio_unitario": 7.5,
+  "descripcion": "Bebida refrescante de maracuyá con hielo.",
+  "disponible": 1,
+  "imagen": "/img/maracuya.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c0537d553062d9afe3f7"
+  },
+  "nombre": "Inca Kola",
+  "precio_unitario": 5,
+  "descripcion": "Gaseosa peruana por excelencia.",
+  "disponible": 1,
+  "imagen": "/img/inca_kola.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c05d7d553062d9afe3f9"
+  },
+  "nombre": "Emoliente",
+  "precio_unitario": 4.5,
+  "descripcion": "Bebida caliente con hierbas medicinales.",
+  "disponible": 1,
+  "imagen": "/img/emoliente.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c0767d553062d9afe3fb"
+  },
+  "nombre": "Refresco de Cebada",
+  "precio_unitario": 5,
+  "descripcion": "Bebida refrescante de cebada tostada.",
+  "disponible": 1,
+  "imagen": "/img/cebada.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c0807d553062d9afe3fd"
+  },
+  "nombre": "Te Helado con Limón",
+  "precio_unitario": 6.5,
+  "descripcion": "Refrescante té helado con toque de limón.",
+  "disponible": 1,
+  "imagen": "/img/te_helado.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c08b7d553062d9afe3ff"
+  },
+  "nombre": "Agua Mineral",
+  "precio_unitario": 3,
+  "descripcion": "Botella de agua sin gas.",
+  "disponible": 1,
+  "imagen": "/img/agua.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c0957d553062d9afe401"
+  },
+  "nombre": "Jugo de Naranja Natural",
+  "precio_unitario": 7,
+  "descripcion": "Jugo exprimido 100% natural.",
+  "disponible": 1,
+  "imagen": "/img/jugo_naranja.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c0ac7d553062d9afe403"
+  },
+  "nombre": "Arroz con Leche",
+  "precio_unitario": 10,
+  "descripcion": "Arroz cocido con leche, azúcar y canela.",
+  "disponible": 1,
+  "imagen": "/img/arroz_leche.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c0f37d553062d9afe407"
+  },
+  "nombre": "Jugo de Naranja Natural",
+  "precio_unitario": 7,
+  "descripcion": "Jugo exprimido 100% natural.",
+  "disponible": 1,
+  "imagen": "/img/jugo_naranja.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c13f7d553062d9afe410"
+  },
+  "nombre": "Suspiro a la Limeña",
+  "precio_unitario": 12,
+  "descripcion": "Postre tradicional con manjar blanco y merengue.",
+  "disponible": 1,
+  "imagen": "/img/suspiro.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c1697d553062d9afe412"
+  },
+  "nombre": "Helado de Lúcuma",
+  "precio_unitario": 8,
+  "descripcion": "Helado artesanal de lúcuma.",
+  "disponible": 1,
+  "imagen": "/img/helado_lucuma.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c1757d553062d9afe414"
+  },
+  "nombre": "Flan de Vainilla",
+  "precio_unitario": 10.5,
+  "descripcion": "Clásico flan casero con caramelo.",
+  "disponible": 1,
+  "imagen": "/img/flan.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c17f7d553062d9afe416"
+  },
+  "nombre": "Picarones",
+  "precio_unitario": 13,
+  "descripcion": "Dulces fritos con miel de chancaca.",
+  "disponible": 1,
+  "imagen": "/img/picarones.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c1887d553062d9afe418"
+  },
+  "nombre": "Leche Asada",
+  "precio_unitario": 10,
+  "descripcion": "Postre horneado con leche y huevo.",
+  "disponible": 1,
+  "imagen": "/img/leche_asada.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c19d7d553062d9afe41a"
+  },
+  "nombre": "Ensalada Rusa",
+  "precio_unitario": 13.5,
+  "descripcion": "Papas, zanahorias, beterraga y mayonesa.",
+  "disponible": 1,
+  "imagen": "/img/ensalada_rusa.jpg",
+  "categoria_id": {
+    "$oid": "685a43077af743ff4f4b4eee"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c1cd7d553062d9afe41c"
+  },
+  "nombre": "Torrejitas de Verdura",
+  "precio_unitario": 11.5,
+  "descripcion": "Croquetas de verduras variadas.",
+  "disponible": 1,
+  "imagen": "/img/torrejitas_verdura.jpg",
+  "categoria_id": {
+    "$oid": "685a43077af743ff4f4b4eee"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c1d97d553062d9afe41e"
+  },
+  "nombre": "Seco de Res",
+  "precio_unitario": 31,
+  "descripcion": "Carne de res guisada con arroz y frejoles.",
+  "disponible": 1,
+  "imagen": "/img/seco_res.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c1e37d553062d9afe420"
+  },
+  "nombre": "Tacu Tacu con Lomo",
+  "precio_unitario": 37.5,
+  "descripcion": "Tacu tacu acompañado de lomo saltado.",
+  "disponible": 1,
+  "imagen": "/img/tacu_tacu.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c1ed7d553062d9afe422"
+  },
+  "nombre": "Milanesa de Pollo",
+  "precio_unitario": 27,
+  "descripcion": "Pollo empanizado con papas y ensalada.",
+  "disponible": 1,
+  "imagen": "/img/milanesa_pollo.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c1f67d553062d9afe424"
+  },
+  "nombre": "Costillas BBQ",
+  "precio_unitario": 38,
+  "descripcion": "Costillas de cerdo bañadas en salsa BBQ.",
+  "disponible": 1,
+  "imagen": "/img/costillas_bbq.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c2067d553062d9afe426"
+  },
+  "nombre": "Pescado en Salsa de Mariscos",
+  "precio_unitario": 40,
+  "descripcion": "Filete bañado en salsa de mariscos.",
+  "disponible": 1,
+  "imagen": "/img/pescado_mariscos.jpg",
+  "categoria_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c2107d553062d9afe428"
+  },
+  "nombre": "Jugo de Papaya",
+  "precio_unitario": 6,
+  "descripcion": "Refrescante jugo natural de papaya.",
+  "disponible": 1,
+  "imagen": "/img/jugo_papaya.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c21c7d553062d9afe42a"
+  },
+  "nombre": "Jugo de Piña",
+  "precio_unitario": 6,
+  "descripcion": "Jugo natural de piña sin azúcar.",
+  "disponible": 1,
+  "imagen": "/img/jugo_pina.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c2267d553062d9afe42c"
+  },
+  "nombre": "Mousse de Maracuyá",
+  "precio_unitario": 10,
+  "descripcion": "Postre frío con sabor intenso a maracuyá.",
+  "disponible": 1,
+  "imagen": "/img/mousse_maracuya.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c25b7d553062d9afe42e"
+  },
+  "nombre": "Brownie con Helado",
+  "precio_unitario": 14,
+  "descripcion": "Brownie de chocolate con bola de helado.",
+  "disponible": 1,
+  "imagen": "/img/brownie_helado.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c26c7d553062d9afe430"
+  },
+  "nombre": "Gelatina Mixta",
+  "precio_unitario": 7,
+  "descripcion": "Gelatina de sabores con frutas picadas.",
+  "disponible": 1,
+  "imagen": "/img/gelatina.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c2777d553062d9afe432"
+  },
+  "nombre": "Cheesecake de Fresa",
+  "precio_unitario": 14,
+  "descripcion": "Tarta de queso con mermelada de fresa.",
+  "disponible": 1,
+  "imagen": "/img/cheesecake.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c2847d553062d9afe434"
+  },
+  "nombre": "Pudín de Pan",
+  "precio_unitario": 9.5,
+  "descripcion": "Dulce de pan con pasas y leche.",
+  "disponible": 1,
+  "imagen": "/img/pudin.jpg",
+  "categoria_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c2cb7d553062d9afe436"
+  },
+  "nombre": "Café Pasado",
+  "precio_unitario": 5,
+  "descripcion": "Café negro fuerte estilo peruano.",
+  "disponible": 1,
+  "imagen": "/img/cafe_pasado.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6864c2d67d553062d9afe438"
+  },
+  "nombre": "Caldo de Gallina",
+  "precio_unitario": 19.5,
+  "descripcion": "Sopa caliente con presa de gallina.",
+  "disponible": 1,
+  "imagen": "/img/caldo_gallina.jpg",
+  "categoria_id": {
+    "$oid": "685a43077af743ff4f4b4eee"
+  }
+},
+{
+  "_id": {
+    "$oid": "687891400592f8faab788645"
+  },
+  "nombre": "Jugo de pera",
+  "precio_unitario": 15,
+  "descripcion": "Refrescante jugo natural de pera.",
+  "disponible": 1,
+  "imagen": "/img/pera.jpg",
+  "categoria_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  }
+}]

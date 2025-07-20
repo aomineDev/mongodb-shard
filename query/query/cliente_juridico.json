@@ -1,0 +1,58 @@
+[
+    {
+        "_id": {
+            "$oid": "685de89d1527a892b06d879b"
+        },
+        "email": "info@cafemiskysabor.com",
+        "direccion": "Jr. Ayacucho 301, Cusco",
+        "numero_telefono": "914567832",
+        "ruc": "20654321876",
+        "razon_social": "Café Misky Sabor E.I.R.L.",
+        "tipo": "Cafetería",
+        "actividad_economica": "Servicio de bebidas calientes y frías",
+        "fecha_registro": "2025-06-16",
+        "sucursal": "Ate"
+    },
+    {
+        "_id": {
+            "$oid": "685de8ae1527a892b06d879d"
+        },
+        "email": "reservas@marisquerialafresca.com",
+        "direccion": "Av. La Marina 789, Callao",
+        "numero_telefono": "956321789",
+        "ruc": "20459872345",
+        "razon_social": "Marisquería La Fresca S.A.C.",
+        "tipo": "Restaurante",
+        "actividad_economica": "Servicios de comida marina",
+        "fecha_registro": "2025-06-16",
+        "sucursal": "Ate"
+    },
+    {
+        "_id": {
+            "$oid": "685de8ba1527a892b06d879f"
+        },
+        "email": "atencion@antojitosnorteños.com",
+        "direccion": "Av. Grau 123, Piura",
+        "numero_telefono": "923456781",
+        "ruc": "20456783901",
+        "razon_social": "Antojitos Norteños E.I.R.L.",
+        "tipo": "Restaurante",
+        "actividad_economica": "Comida típica del norte peruano",
+        "fecha_registro": "2025-06-16",
+        "sucursal": "Molina"
+    },
+    {
+        "_id": {
+            "$oid": "685de8c51527a892b06d87a1"
+        },
+        "email": "pedidos@dulceencanto.com",
+        "direccion": "Calle Libertad 45, Chiclayo",
+        "numero_telefono": "912345678",
+        "ruc": "20765432198",
+        "razon_social": "Dulce Encanto Repostería S.R.L.",
+        "tipo": "Pastelería",
+        "actividad_economica": "Elaboración de productos de pastelería y postres",
+        "fecha_registro": "2025-06-13",
+        "sucursal": "Molina"
+    }
+]

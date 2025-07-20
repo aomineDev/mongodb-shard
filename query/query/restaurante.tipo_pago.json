@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "685a62cc1fa70e3aa5d0bcb3"
+  },
+  "tipo": "Efectivo"
+},
+{
+  "_id": {
+    "$oid": "685a62e61fa70e3aa5d0bcb4"
+  },
+  "tipo": "Tarjeta"
+}]

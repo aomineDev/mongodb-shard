@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "685a3fe67af743ff4f4b4ee1"
+  },
+  "nombre": "Mesero"
+},
+{
+  "_id": {
+    "$oid": "685a3ff67af743ff4f4b4ee3"
+  },
+  "nombre": "Administrador"
+},
+{
+  "_id": {
+    "$oid": "685a400b7af743ff4f4b4ee5"
+  },
+  "nombre": "Cajero"
+},
+{
+  "_id": {
+    "$oid": "687842fc7cac2712f6dd8ebb"
+  },
+  "nombre": "Chef"
+}]

@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "685a5e291fa70e3aa5d0bcae"
+  },
+  "numero": 1,
+  "capacidad": 4,
+  "disponible": true,
+  "mesero_id": {
+    "$oid": "685b4a50d440ddd79235da56"
+  }
+},
+{
+  "_id": {
+    "$oid": "685d9c792d894bb04717afbd"
+  },
+  "numero": 2,
+  "capacidad": 2,
+  "disponible": true,
+  "mesero_id": {
+    "$oid": "685b4a50d440ddd79235da56"
+  }
+},
+{
+  "_id": {
+    "$oid": "685d9c882d894bb04717afbe"
+  },
+  "numero": 3,
+  "capacidad": 4,
+  "disponible": true,
+  "mesero_id": {
+    "$oid": "685d8d79454ad92f0facf415"
+  }
+},
+{
+  "_id": {
+    "$oid": "685d9c992d894bb04717afbf"
+  },
+  "numero": 4,
+  "capacidad": 6,
+  "disponible": true,
+  "mesero_id": {
+    "$oid": "685d8dc5454ad92f0facf416"
+  }
+},
+{
+  "_id": {
+    "$oid": "685d9cad2d894bb04717afc0"
+  },
+  "numero": 5,
+  "capacidad": 8,
+  "disponible": true,
+  "mesero_id": {
+    "$oid": "685d8e37454ad92f0facf417"
+  }
+},
+{
+  "_id": {
+    "$oid": "685d9cc02d894bb04717afc1"
+  },
+  "numero": 6,
+  "capacidad": 2,
+  "disponible": true,
+  "mesero_id": {
+    "$oid": "685d8ecc454ad92f0facf418"
+  }
+}]

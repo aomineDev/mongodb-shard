@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "685a43077af743ff4f4b4eee"
+  },
+  "nombre": "Entradas",
+  "descripccion": "Platos ligeros para empezar."
+},
+{
+  "_id": {
+    "$oid": "685a43317af743ff4f4b4ef0"
+  },
+  "nombre": "Platos Principales",
+  "descripccion": "Nuestras especialidades fuertes."
+},
+{
+  "_id": {
+    "$oid": "685a436d7af743ff4f4b4ef2"
+  },
+  "nombre": "Bebidas",
+  "descripccion": "Variedad de refrescos y licores."
+},
+{
+  "_id": {
+    "$oid": "685a43827af743ff4f4b4ef4"
+  },
+  "nombre": "Postres",
+  "descripccion": "Dulces para finalizar la comida."
+}]

@@ -1,0 +1,80 @@
+[
+  {
+    "email": "carlos.mendoza@hotmail.com",
+    "direccion": "Jr. Las Flores 456, Callao",
+    "numero_telefono": "912345678",
+    "dni": "47681325",
+    "primer_nombre": "Carlos",
+    "segundo_nombre": "Eduardo",
+    "apellido_paterno": "Mendoza",
+    "apellido_materno": "Lopez",
+    "fecha_nacimiento": "1990-11-08",
+    "fecha_registro": "2025-06-02",
+    "sede": "Ate"
+  },
+  {
+    "email": "veronica.paz@gmail.com",
+    "direccion": "Calle 28 de Julio 789, Arequipa",
+    "numero_telefono": "987321654",
+    "dni": "49876543",
+    "primer_nombre": "Ana",
+    "segundo_nombre": "Isabel",
+    "apellido_paterno": "Paz",
+    "apellido_materno": "Quispe",
+    "fecha_nacimiento": "1998-03-22",
+    "fecha_registro": "2025-06-03",
+    "sede": "Ate"
+  },
+  {
+    "email": "luis.ramirez@yahoo.com",
+    "direccion": "Av. Grau 1245, Trujillo",
+    "numero_telefono": "954789632",
+    "dni": "45678912",
+    "primer_nombre": "Luis",
+    "segundo_nombre": "Alonso",
+    "apellido_paterno": "Ramírez",
+    "apellido_materno": "Sánchez",
+    "fecha_nacimiento": "1988-07-30",
+    "fecha_registro": "2025-06-04",
+    "sede": "Ate"
+  },
+  {
+    "email": "diana.huaman@gmail.com",
+    "direccion": "Psj. Libertad 111, Cusco",
+    "numero_telefono": "921456378",
+    "dni": "42319876",
+    "primer_nombre": "Diana",
+    "segundo_nombre": "Patricia",
+    "apellido_paterno": "Huamán",
+    "apellido_materno": "Chávez",
+    "fecha_nacimiento": "1993-10-15",
+    "fecha_registro": "2025-06-05",
+    "sede": "Molina"
+  },
+  {
+    "email": "jorge.torres@outlook.com",
+    "direccion": "Av. Perú 222, Piura",
+    "numero_telefono": "965432178",
+    "dni": "41239876",
+    "primer_nombre": "Jorge",
+    "segundo_nombre": "Fernando",
+    "apellido_paterno": "Torres",
+    "apellido_materno": "Valle",
+    "fecha_nacimiento": "1987-06-05",
+    "fecha_registro": "2025-06-06",
+    "sede": "Molina"
+  },
+  {
+    "email": "valeria.matos@gmail.com",
+    "direccion": "Jr. Manco Cápac 321, Ica",
+    "numero_telefono": "934876512",
+    "dni": "46781234",
+    "primer_nombre": "Valeria",
+    "segundo_nombre": "Beatriz",
+    "apellido_paterno": "Matos",
+    "apellido_materno": "Reyes",
+    "fecha_nacimiento": "2000-01-18",
+    "fecha_registro": "2025-06-07",
+    "sede": "Molina"
+  }
+]

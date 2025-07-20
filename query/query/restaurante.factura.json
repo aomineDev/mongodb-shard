@@ -1,0 +1,226 @@
+[
+  {
+    "_id": {
+      "$oid": "685e270a8df7c644a403ea27"
+    },
+    "fecha": {
+      "$date": "2025-06-15T00:00:00.000Z"
+    },
+    "hora": "11:00",
+    "activo": false,
+    "precio_total": 100,
+    "descuento": 5,
+    "pagos_adicionales": 3,
+    "igv": 15.25,
+    "cambio": 0,
+    "cliente_juridico_id": {
+      "$oid": "685db79d2d894bb04717afda"
+    },
+    "cajero_id": {
+      "$oid": "685d8c30454ad92f0facf414"
+    },
+    "pedido_id": {
+      "$oid": "685de6ff1527a892b06d8796"
+    },
+    "tipo_pago_id": {
+      "$oid": "685a62cc1fa70e3aa5d0bcb3"
+    },
+    "sede": "Ate"
+  },
+  {
+    "_id": {
+      "$oid": "685e27ad8df7c644a403ea2d"
+    },
+    "fecha": {
+      "$date": "2025-06-15T00:00:00.000Z"
+    },
+    "hora": "13:00",
+    "activo": true,
+    "precio_total": 250,
+    "descuento": 20,
+    "pagos_adicionales": 10,
+    "igv": 35,
+    "cambio": 0,
+    "cliente_juridico_id": {
+      "$oid": "685de86d1527a892b06d8799"
+    },
+    "cajero_id": {
+      "$oid": "685b4a50d440ddd79235da56"
+    },
+    "pedido_id": {
+      "$oid": "685de6f91527a892b06d8794"
+    },
+    "tipo_pago_id": {
+      "$oid": "685a62e61fa70e3aa5d0bcb4"
+    },
+    "sede": "Ate"
+  },
+  {
+    "_id": {
+      "$oid": "685e27ea8df7c644a403ea2f"
+    },
+    "fecha": {
+      "$date": "2024-06-15T00:00:00.000Z"
+    },
+    "hora": "12:00",
+    "activo": true,
+    "precio_total": 75,
+    "descuento": 0,
+    "pagos_adicionales": 0,
+    "igv": 11.44,
+    "cambio": 0,
+    "cliente_juridico_id": {
+      "$oid": "685de89d1527a892b06d879b"
+    },
+    "cajero_id": {
+      "$oid": "685d8c30454ad92f0facf414"
+    },
+    "pedido_id": {
+      "$oid": "685de6f51527a892b06d8792"
+    },
+    "tipo_pago_id": {
+      "$oid": "685a62cc1fa70e3aa5d0bcb3"
+    },
+    "sede": "Ate"
+  },
+  {
+    "_id": {
+      "$oid": "685e28128df7c644a403ea31"
+    },
+    "fecha": {
+      "$date": "2024-06-15T00:00:00.000Z"
+    },
+    "hora": "10:00",
+    "activo": true,
+    "precio_total": 180,
+    "descuento": 8,
+    "pagos_adicionales": 5,
+    "igv": 26.33,
+    "cambio": 0,
+    "cliente_juridico_id": {
+      "$oid": "685de8ae1527a892b06d879d"
+    },
+    "cajero_id": {
+      "$oid": "685b4a50d440ddd79235da56"
+    },
+    "pedido_id": {
+      "$oid": "685de6ee1527a892b06d8790"
+    },
+    "tipo_pago_id": {
+      "$oid": "685a62e61fa70e3aa5d0bcb4"
+    },
+    "sede": "Ate"
+  },
+  {
+    "_id": {
+      "$oid": "685e28348df7c644a403ea33"
+    },
+    "fecha": {
+      "$date": "2024-06-15T00:00:00.000Z"
+    },
+    "hora": "11:00",
+    "activo": true,
+    "precio_total": 310,
+    "descuento": 15,
+    "pagos_adicionales": 12,
+    "igv": 44.51,
+    "cambio": 0,
+    "cliente_juridico_id": {
+      "$oid": "685de8ba1527a892b06d879f"
+    },
+    "cajero_id": {
+      "$oid": "685d8c30454ad92f0facf414"
+    },
+    "pedido_id": {
+      "$oid": "685de60a1527a892b06d877c"
+    },
+    "tipo_pago_id": {
+      "$oid": "685a62cc1fa70e3aa5d0bcb3"
+    },
+    "sede": "Molina"
+  },
+  {
+    "_id": {
+      "$oid": "6865c45280a37538d7d04b7d"
+    },
+    "fecha": {
+      "$date": "2025-06-16T00:00:00.000Z"
+    },
+    "hora": "09:30",
+    "activo": true,
+    "precio_total": 180,
+    "descuento": 10,
+    "pagos_adicionales": 5,
+    "igv": 27.36,
+    "cambio": 0,
+    "cliente_juridico_id": {
+      "$oid": "685db79d2d894bb04717afda"
+    },
+    "cajero_id": {
+      "$oid": "685d8c30454ad92f0facf414"
+    },
+    "pedido_id": {
+      "$oid": "685de6ff1527a892b06d8796"
+    },
+    "tipo_pago_id": {
+      "$oid": "685a62cc1fa70e3aa5d0bcb3"
+    },
+    "sede": "Molina"
+  },
+  {
+    "_id": {
+      "$oid": "6865c46380a37538d7d04b7f"
+    },
+    "fecha": {
+      "$date": "2025-06-17T00:00:00.000Z"
+    },
+    "hora": "10:15",
+    "activo": false,
+    "precio_total": 95,
+    "descuento": 2,
+    "pagos_adicionales": 3,
+    "igv": 13.63,
+    "cambio": 0,
+    "cliente_juridico_id": {
+      "$oid": "685de86d1527a892b06d8799"
+    },
+    "cajero_id": {
+      "$oid": "685b4a50d440ddd79235da56"
+    },
+    "pedido_id": {
+      "$oid": "685de6f91527a892b06d8794"
+    },
+    "tipo_pago_id": {
+      "$oid": "685a62e61fa70e3aa5d0bcb4"
+    },
+    "sede": "Molina"
+  },
+  {
+    "_id": {
+      "$oid": "6865c47080a37538d7d04b81"
+    },
+    "fecha": {
+      "$date": "2025-06-17T00:00:00.000Z"
+    },
+    "hora": "14:00",
+    "activo": true,
+    "precio_total": 300,
+    "descuento": 25,
+    "pagos_adicionales": 10,
+    "igv": 41.65,
+    "cambio": 0,
+    "cliente_juridico_id": {
+      "$oid": "685de89d1527a892b06d879b"
+    },
+    "cajero_id": {
+      "$oid": "685d8c30454ad92f0facf414"
+    },
+    "pedido_id": {
+      "$oid": "685de6f51527a892b06d8792"
+    },
+    "tipo_pago_id": {
+      "$oid": "685a62cc1fa70e3aa5d0bcb3"
+    },
+    "sede": "Molina"
+  }
+]
